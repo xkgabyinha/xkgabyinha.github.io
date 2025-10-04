@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(213, 165, 241);
+}
+
+.inicio {
+    display: flex;
+    height: 100vh;
+}
+
+.foto {
+    flex: 1;
+    background-color: rgb(124, 71, 126);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto img {
+    width: 300px;
+    heigth: auto;
+    border-rdius: 8px;
+}
+
+.infos {
+    flex: 2;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infos h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.infos h2 {
+    font-size: 24px;
+    color: rgb(68, 86, 148);
+    margin-top: 10px;
+}
+
+.infos p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1, 4rem;
+    margin-top: 1, 4rem;
+}
+
+.social a {
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    color: rgb(155, 58, 124);
+    border: 1, 6px solid rgb(109, 30, 109);
+    font-size: 1, 5rem;
+    border-radius: 50%;
+    padding: 0.39rem;
+    text-align: center;
+}
+
+.social a:hover {
+    color: #864e47;
+    background-color: rgb(114, 5, 5);
+}
