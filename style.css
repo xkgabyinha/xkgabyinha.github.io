@@ -71,15 +71,15 @@ body {
     background-color: rgb(114, 5, 5);
 }
 
-.footer{
-    background-color:rgb(170, 131, 207);
-    color:rgb(70, 23, 82);
+.footer {
+    background-color: rgb(170, 131, 207);
+    color: rgb(70, 23, 82);
     text-align: center;
     padding: 20px;
 }
 
-footer p{
-    margin:0;
+footer p {
+    margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
     font-weight: 500;
